@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!---Tshegofatso Delphy Stone--->
+<html>
+  <head>
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="Temperature.css">
+  </head>
+
+  <body>
+    <div class="Header-banner">
+      <strong>Temperature converter</strong>
+    </div>
+
+    <div class="main-body">
+
+      <input type="number" id="temperature" placeholder="Enter temperature" required>
+
+      <div class="radio-buttons">
+       
+        <label><input type="radio" id="Celcius" name="unit">To Celsius</label>
+
+        <label><input type="radio" id="Farenheit" name="unit">To Farenheit</label>
+
+      </div>
+
+      <button  id= "convert-button" class="convert-button"><strong>Convert</strong></button>
+
+      <input type="text" id="convertedTemp" placeholder="Result" readonly>
+
+      <button class="reset-button"><strong>Reset</strong></button>
+
+    </div> 
+
+    <script src="script.js"></script>
+  </body>
+</html>

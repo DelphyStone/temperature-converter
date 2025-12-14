@@ -1,0 +1,65 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 212, 213);
+}
+
+.Header-banner
+{
+    position: fixed;
+    background-color: rgb(232, 182, 120);
+    font-family: Roboto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 75px;
+    z-index: 100;
+}
+
+.main-body
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.main-body input
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.radio-buttons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.convert-button,
+.reset-button
+{
+    height: 50px;
+    width: 90px;
+    background-color: rgb(232, 182, 120);
+}
+
+.convert-button:hover,
+.reset-button:hover
+{
+    border-style: solid;
+    border-color: rgb(153, 153, 232);
+}
